@@ -37,6 +37,45 @@
             <label for="activitats">Activitas que vols realitzar*</label>
             <p>Activitats que vols realitzar*</p>
             
+            <input type="radio" name="activitat" id="act_robotica" value="robotica" required>
+            <label for="act_robotica">Robòtica</label><br>
+            <input type="radio" name="activitat" id="act_programacio" value="programacio">
+            <label for="act_programacio">Programació</label><br>
+            <input type="radio" name="activitat" id="act_disseny" value="disseny">
+            <label for="act_disseny">Disseny 3D</label><br><br>
+
+            <p>Dies de la setmana disponibles*</p>
+            
+            <input type="checkbox" name="dies" id="dia_dl" value="dilluns">
+            <label for="dia_dl">Dilluns</label><br>
+            <input type="checkbox" name="dies" id="dia_dt" value="dimarts">
+            <label for="dia_dt">Dimarts</label><br>
+            <input type="checkbox" name="dies" id="dia_dc" value="dimecres">
+            <label for="dia_dc">Dimecres</label><br>
+            <input type="checkbox" name="dies" id="dia_dj" value="dijous">
+            <label for="dia_dj">Dijous</label><br>
+            <input type="checkbox" name="dies" id="dia_dv" value="divendres">
+            <label for="dia_dv">Divendres</label><br><br>
+
+    <h2>3. Informació addicional</h2>
+            <label for="color_equip">Color de la samarreta de l'equip</label>
+            <input type="color" name="color_equip" id="color_equip"><br><br>
+
+            <label for="nivell">Nivell d'experiència prèvia (0 a 10)</label>
+            <input type="range" name="nivell" id="nivell" min="0" max="10"><br><br>
+
+            <label for="fitxer">Puja el teu document d'autorització (opcional)</label>
+            <input type="file" name="fitxer" id="fitxer"><br><br>
+
+            <label for="observacions">Observacions addicionals</label><br>
+            <textarea name="observacions" id="observacions" rows="4" cols="50" placeholder="Escriu aquí les teves observacions..."></textarea><br><br>
+
+            <input type="checkbox" name="condicions" id="condicions" required>
+            <label for="condicions">Accepto les condicions i la política de privacitat*</label><br><br>
+
+            <!-- Botons per enviar i netejar el formulari -->
+            <button type="submit">Enviar inscripció</button>
+            <button type="reset">Netejar formulari</button>
 
     </form>
 </body>
