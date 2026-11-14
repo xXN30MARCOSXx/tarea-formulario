@@ -1,0 +1,75 @@
+
+    body {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        color: #333333;
+        background-color: #f4f7f6;
+        margin: 20px;
+        padding: 20px;
+    }
+
+    h1 {
+        text-align: center;
+        color: #1a4b84;
+    }
+
+    h1 + p {
+        text-align: center;
+        color: #666666;
+        margin-bottom: 30px;
+    }
+
+    form {
+        background-color: #ffffff;
+        width: 650px;
+        margin: 0 auto;
+        padding: 25px;
+        border: 1px solid #cccccc;
+        border-radius: 8px;
+    }
+
+    h2 {
+        font-size: 18px;
+        color: #1a4b84;
+        border-bottom: 1px solid #e0e0e0;
+        padding-bottom: 5px;
+        margin-top: 20px;
+    }
+
+    label {
+        font-size: 14px;
+        color: #222222;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="date"],
+    input[type="password"],
+    select,
+    textarea {
+        width: 100%;
+        padding: 8px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        border: 1px solid #bbbbbb;
+        border-radius: 4px;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        box-sizing: border-box;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 15px;
+        color: #ffffff;
+        background-color: #1a4b84;
+        border: none;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    button[type="reset"] {
+        background-color: #777777;
+    }
